@@ -4,25 +4,27 @@
     <div
       cdkDropList
       #todoList="cdkDropList"
-      [cdkDropListData]="todo"
+      [cdkDropListData]="componetns"
       [cdkDropListConnectedTo]="[doneList]"
       class="example-list"
       (cdkDropListDropped)="drop($event)">
-      <div class="example-box" *ngFor="let item of todo" cdkDrag>{{item}}</div>
+        <div class="example-box" *ngFor="let item of componetns" cdkDrag>{{item}}</div>
     </div>
   </div>
   
-  <div class="example-container">
+  <div class="example-editor">
     <h2>Editor</h2>
-  
-    <div
-      cdkDropList
-      #doneList="cdkDropList"
-      [cdkDropListData]="done"
-      [cdkDropListConnectedTo]="[todoList]"
-      class="example-list"
-      (cdkDropListDropped)="drop($event)">
-      <div class="example-box" *ngFor="let item of done" cdkDrag>{{item}}</div>
+    <div class="example-boundary">
+        <div
+        cdkDropList
+        #doneList="cdkDropList"
+        [cdkDropListData]="editor"
+        [cdkDropListConnectedTo]="[todoList]"
+        class="example-list-editor"
+        (cdkDropListDropped)="drop($event)"
+        cdkDragBoundary=".example-boundary">
+            <div class="example-box" *ngFor="let item of editor" cdkDrag>{{item}}</div>
+        </div>
     </div>
 </div>
   
