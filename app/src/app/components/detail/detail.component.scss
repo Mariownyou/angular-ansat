@@ -49,3 +49,19 @@
     display: flex;
     flex-flow: column;
 }
+
+.roket {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    padding: 20px;
+    height: 90%;
+
+    #crossed {
+        margin-top: 10px;
+    }
+
+    #roket {
+        margin-right: 15px;
+    }
+}

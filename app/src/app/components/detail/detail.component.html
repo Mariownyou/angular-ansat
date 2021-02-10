@@ -1,14 +1,22 @@
 <div class="row">
-    <div class="col-12 mb-5">
-        <div class="grid-text">
-            <h1>Деталь</h1>
-            <div class="mat-body">
-                Самый первый класс, от которого мы будем наследовать другие
-            </div>
-        </div>
+    <div class="col-12 col-md-6 mb-5">
+        <h1>Деталь</h1>
+        <p class="body-text">
+            Самый первый класс, от которого мы будем наследовать другие.
+            Он просто создает визуальный облик, содержит все что связано с этим
+            Там может быть массив из точек, или класс какой-то формы <em>(например мы создадим класс квадрат и класс круг)</em>.
+            Таким образом мы можем отрисовать целую ракету, <em>у меня простая 2D моделька, и чтобы отрисовать ее нам нужно всего 5 точек и как бы вся ракета является одной деталькой и нам неважно что в ней находится</em>.
+            То есть этот класс отвечает за визуал и отрисовку клиентом, ну и в Json-е это все будет очень просто выглядеть.
+            Я для примера взял два параметра: <strong>ширина</strong> и <strong>высота</strong>
+        </p>
     </div>
 
-    <div class="col-4">
+    <div class="col-12 col-md-6 mb-5 roket">
+        <img src="../../../assets/Roket-small.svg" alt="roket" id="roket">
+        <img src="../../../assets/Roket-small-crossed.svg" alt="roket-crossed" id="crossed">
+    </div>
+
+    <div class="col-6 col-md-4">
         <form [formGroup]="myForm" class='form-container'>
 
             <mat-form-field class="form-field">
@@ -29,7 +37,7 @@
 
         </form>
     </div>
-    <div class="col-4">
+    <div class="col-6 col-md-4">
         <div class="example-boundary">
             <div
             class="example-box"
@@ -41,9 +49,13 @@
         </div>
     </div>
 
-    <div class="col-4">
-        <h2>
+    <div class="col-6 col-md-4">
+        <p>
+           Вот так это будет в JSON
+        </p>
+        <hr>
+        <code>
             {{ detail | json }}
-        </h2>
+        </code>
     </div>
 </div>

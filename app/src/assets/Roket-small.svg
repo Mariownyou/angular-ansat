@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="453" viewBox="0 0 100 453">
+  <g id="Roket-small" transform="translate(-860 -183)">
+    <g id="Rectangle_4" data-name="Rectangle 4" transform="translate(860 494)" fill="#fff" stroke="#000" stroke-width="3">
+      <rect width="100" height="142" stroke="none"/>
+      <rect x="1.5" y="1.5" width="97" height="139" fill="none"/>
+    </g>
+    <g id="Rectangle_7" data-name="Rectangle 7" transform="translate(860 269)" fill="#fff" stroke="#000" stroke-width="3">
+      <rect width="100" height="190" stroke="none"/>
+      <rect x="1.5" y="1.5" width="97" height="187" fill="none"/>
+    </g>
+    <g id="Polygon_3" data-name="Polygon 3" transform="translate(860 183)" fill="#fff">
+      <path d="M 97.40785980224609 85.5 L 2.592139959335327 85.5 L 50 3.010323524475098 L 97.40785980224609 85.5 Z" stroke="none"/>
+      <path d="M 50 6.020668029785156 L 5.184288024902344 84 L 94.81571197509766 84 L 50 6.020668029785156 M 50 0 L 100 87 L 0 87 L 50 0 Z" stroke="none"/>
+    </g>
+    <g id="Free_space" data-name="Free space">
+      <g id="Rectangle_5" data-name="Rectangle 5" transform="translate(860 456)" fill="#7dfb7d" stroke="#707070" stroke-width="3">
+        <rect width="100" height="45" stroke="none"/>
+        <rect x="1.5" y="1.5" width="97" height="42" fill="none"/>
+      </g>
+      <text id="Free_space-2" data-name="Free space" transform="translate(876 484)" font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Free space</tspan></text>
+    </g>
+    <g id="Cargo">
+      <g id="Rectangle_8" data-name="Rectangle 8" transform="translate(868 275)" fill="#eefb7d" stroke="#707070" stroke-width="3">
+        <rect width="84" height="49" rx="20" stroke="none"/>
+        <rect x="1.5" y="1.5" width="81" height="46" rx="18.5" fill="none"/>
+      </g>
+      <text id="Cargo-2" data-name="Cargo" transform="translate(890 305)" font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Cargo</tspan></text>
+    </g>
+    <g id="Fuel">
+      <g id="Rectangle_9" data-name="Rectangle 9" transform="translate(868 330)" fill="#fbc97d" stroke="#707070" stroke-width="3">
+        <rect width="84" height="44" rx="20" stroke="none"/>
+        <rect x="1.5" y="1.5" width="81" height="41" rx="18.5" fill="none"/>
+      </g>
+      <text id="Fuel-2" data-name="Fuel" transform="translate(897 357)" font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Fuel</tspan></text>
+    </g>
+    <g id="Fuel-3" data-name="Fuel" transform="translate(0 177)">
+      <g id="Rectangle_9-2" data-name="Rectangle 9" transform="translate(868 330)" fill="#fbc97d" stroke="#707070" stroke-width="3">
+        <rect width="84" height="44" rx="20" stroke="none"/>
+        <rect x="1.5" y="1.5" width="81" height="41" rx="18.5" fill="none"/>
+      </g>
+      <text id="Fuel-4" data-name="Fuel" transform="translate(897 357)" font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Fuel</tspan></text>
+    </g>
+    <g id="Polygon_4" data-name="Polygon 4" transform="translate(875 203)" fill="#5593e3">
+      <path d="M 69.12203216552734 58.5 L 0.8779706954956055 58.5 L 35 0.9800096154212952 L 69.12203216552734 58.5 Z" stroke="none"/>
+      <path d="M 35 1.959999084472656 L 1.755928039550781 58 L 68.24407196044922 58 L 35 1.959999084472656 M 35 3.814697265625e-06 L 70 59 L 0 59 L 35 3.814697265625e-06 Z" stroke="none" fill="#707070"/>
+    </g>
+    <text id="tech" transform="translate(896 248)" font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">tech</tspan></text>
+    <g id="engine" transform="translate(0 -188)">
+      <path id="Path_5" data-name="Path 5" d="M578,920.4l16.909,34.864H633.83L649.624,920.4Z" transform="translate(295.25 -352.202)" fill="#c2c2c2" stroke="#707070" stroke-width="1"/>
+      <path id="Path_6" data-name="Path 6" d="M0,0,7.23,34.864H23.871L30.624,0Z" transform="translate(924.5 638.066) rotate(180)" fill="#131212" stroke="#707070" stroke-width="1"/>
+      <text id="Engine-2" data-name="Engine" transform="translate(886 591)" font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Engine</tspan></text>
+    </g>
+    <g id="engine-3" data-name="engine" transform="translate(0 -11)">
+      <path id="Path_5-2" data-name="Path 5" d="M578,920.4l16.909,34.864H633.83L649.624,920.4Z" transform="translate(295.25 -352.202)" fill="#c2c2c2" stroke="#707070" stroke-width="1"/>
+      <path id="Path_6-2" data-name="Path 6" d="M0,0,7.23,34.864H23.871L30.624,0Z" transform="translate(924.5 638.066) rotate(180)" fill="#131212" stroke="#707070" stroke-width="1"/>
+      <text id="Engine-4" data-name="Engine" transform="translate(886 591)" font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Engine</tspan></text>
+    </g>
+  </g>
+</svg>
