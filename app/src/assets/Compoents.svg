@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="346.298" height="315.5" viewBox="0 0 346.298 315.5">
+  <g id="Compoents" transform="translate(-59.702 -297)">
+    <g id="Group_1" data-name="Group 1" transform="translate(-356 18)">
+      <g id="Rectangle_2" data-name="Rectangle 2" transform="translate(594 279)" fill="#eefb7d" stroke="#707070" stroke-width="3">
+        <rect width="168" height="153" rx="20" stroke="none"/>
+        <rect x="1.5" y="1.5" width="165" height="150" rx="18.5" fill="none"/>
+      </g>
+      <text id="Cargo" transform="translate(638 368)" font-size="29" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Cargo</tspan></text>
+    </g>
+    <g id="Group_2" data-name="Group 2" transform="translate(-356 27)">
+      <g id="Rectangle_3" data-name="Rectangle 3" transform="translate(594 450)" fill="#fbc97d" stroke="#707070" stroke-width="3">
+        <rect width="168" height="135" rx="20" stroke="none"/>
+        <rect x="1.5" y="1.5" width="165" height="132" rx="18.5" fill="none"/>
+      </g>
+      <text id="Fuel" transform="translate(650 530)" font-size="29" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Fuel</tspan></text>
+    </g>
+    <g id="Group_3" data-name="Group 3" transform="translate(-544 -389)">
+      <path id="Path_1" data-name="Path 1" d="M578,920.4l32.576,67.166h74.983L715.987,920.4Z" transform="translate(26.5 -54)" fill="#c2c2c2" stroke="#707070" stroke-width="1"/>
+      <path id="Path_2" data-name="Path 2" d="M0,0,13.929,67.166h32.06L59,0Z" transform="translate(703.235 1001) rotate(180)" fill="#131212" stroke="#707070" stroke-width="1"/>
+      <text id="Engine" transform="translate(629 911)" font-size="28" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Engine</tspan></text>
+    </g>
+    <g id="Group_5" data-name="Group 5" transform="translate(-782 -334)">
+      <g id="Rectangle_5" data-name="Rectangle 5" transform="translate(842 635)" fill="#7dfb7d" stroke="#707070" stroke-width="3">
+        <rect width="164" height="148" stroke="none"/>
+        <rect x="1.5" y="1.5" width="161" height="145" fill="none"/>
+      </g>
+      <text id="Free_space" data-name="Free space" transform="translate(868 719)" font-size="22" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Free space</tspan></text>
+    </g>
+  </g>
+</svg>

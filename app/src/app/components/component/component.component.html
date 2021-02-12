@@ -1,0 +1,43 @@
+<div class="row">
+    <div class="col-12 col-md-6 mb-5">
+        <h1>Компонент</h1>
+        <p class="body-text">
+           Улучшеная деталь. Наследует деаталь, но тут мы еще содержим всю логику для расчета параметров
+           Вес и все такое
+        </p>
+    </div>
+
+    <div class="col-12 col-md-6 mb-5 component">
+        <img src="../../../assets/Compoents.svg" alt="components" id="components">
+    </div>
+
+    <div class="col-6 col-md-4">
+        <form class="form-container">
+
+            <mat-form-field class="form-field">
+                <input matInput placeholder="name" [(ngModel)]='component.name' name="name"> 
+            </mat-form-field>
+           <mat-form-field>
+              <mat-select placeholder="type" [(ngModel)]='component.type' name="type">
+                <mat-option *ngFor='let type of types' [value]='type'>{{ type }}</mat-option>
+              </mat-select> 
+            </mat-form-field>
+            <mat-form-field class="form-field">
+                <input matInput placeholder="weight" name="weight" [(ngModel)]='component.weight'> 
+            </mat-form-field>
+            <mat-form-field class="form-field">
+                <input matInput placeholder="thickness" name="thickness" [(ngModel)]='component.thickness'> 
+            </mat-form-field>
+
+        </form>
+
+    </div>
+
+    <div class="col-6 col-md-4">
+
+    </div>
+
+    <div class="col-6 col-md-4">
+        <pre>{{ component | json }}</pre>
+    </div>
+</div>

@@ -13,13 +13,19 @@ import {MatGridListModule} from '@angular/material/grid-list';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input'
 import { ReactiveFormsModule } from '@angular/forms';
+import { ComponentComponent } from './components/component/component.component';
+import { CardComponent } from './components/card/card.component';
+import {MatSelectModule} from '@angular/material/select';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
     DragDropComponent,
     HomeComponent,
-    DetailComponent
+    DetailComponent,
+    ComponentComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
@@ -30,7 +36,9 @@ import { ReactiveFormsModule } from '@angular/forms';
     MatGridListModule,
     MatFormFieldModule,
     ReactiveFormsModule,
-    MatInputModule
+    MatInputModule,
+    MatSelectModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

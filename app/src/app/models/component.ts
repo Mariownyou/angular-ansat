@@ -1,0 +1,10 @@
+import { Detail } from "./detail";
+
+export interface Component {
+    name?: string,
+    detail: Detail
+    //type: 'engine' | 'cargo' | 'fuel' | 'other'
+    type: any
+    weight: number
+    thickness: number
+}

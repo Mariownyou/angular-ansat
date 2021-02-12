@@ -16,11 +16,11 @@ export class DetailComponent implements OnInit {
 
   ngOnInit(): void {
     this.myForm = this.fb.group({
-      width: [100, [
+      width: [0, [
         Validators.min(50),
         Validators.max(400)
       ]],
-      height: [100, [
+      height: [0, [
         Validators.min(50),
         Validators.max(400)
       ]],
