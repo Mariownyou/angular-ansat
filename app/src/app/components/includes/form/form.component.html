@@ -1,0 +1,19 @@
+<form class="form-container">
+
+    <mat-form-field class="form-field">
+        <input matInput placeholder="name" [(ngModel)]='component.name' name="name"> 
+    </mat-form-field>
+    <mat-form-field>
+        <mat-select placeholder="type" [(ngModel)]='component.type' name="type">
+        <mat-option *ngFor='let type of types' [value]='type'>{{ type }}</mat-option>
+        </mat-select> 
+    </mat-form-field>
+    <mat-form-field class="form-field">
+        <input matInput type="number" placeholder="weight" name="weight" [(ngModel)]='component.weight'> 
+    </mat-form-field>
+    <mat-form-field class="form-field">
+        <input matInput type="number" placeholder="thickness" name="thickness" [(ngModel)]='component.thickness'> 
+    </mat-form-field>
+
+</form>
+

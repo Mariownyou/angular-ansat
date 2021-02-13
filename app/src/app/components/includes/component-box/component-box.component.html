@@ -1,0 +1,30 @@
+<div
+    *ngIf='!dragable'
+    class="example-box"
+    cdkDragBoundary=".example-boundary" 
+    cdkDrag
+    [ngStyle]="{ 
+        'width': component.detail.width + 'px',
+        'height': component.detail.height + 'px',
+        'border-width': component.thickness + 'px',
+        'background-color': component.type == 'cargo' ? colors.cargo : (component.type == 'fuel' ? colors.fuel : colors.other)
+    }">
+    {{ component.type }} 
+</div>
+<div 
+class="wrapper"
+cdkDrag
+*ngIf='dragable'
+>
+    <div
+        class="example-box"
+        [ngStyle]="{ 
+            'width': component.detail.width + 'px',
+            'height': component.detail.height + 'px',
+            'border-width': component.thickness + 'px',
+            'background-color': component.type == 'cargo' ? colors.cargo : (component.type == 'fuel' ? colors.fuel : colors.other)
+        }">
+        {{ component.type }} 
+    </div>
+    <button class='ml-2' mat-stroked-button (click)='openDialog()'>Edit</button>
+</div>

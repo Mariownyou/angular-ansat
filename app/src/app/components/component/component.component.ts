@@ -9,14 +9,9 @@ import { DetailService } from 'src/app/services/detail.service';
 export class ComponentComponent implements OnInit {
 
   component = this.detailService.component
-  types: string[] = [
-    'engine',
-    'cargo',
-    'fuel',
-    'other'
-  ]
-
-  constructor(private detailService: DetailService) { }
+  
+  
+   constructor(private detailService: DetailService) { }
 
   ngOnInit(): void {
   }

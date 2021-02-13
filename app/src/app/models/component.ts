@@ -5,6 +5,6 @@ export interface Component {
     detail: Detail
     //type: 'engine' | 'cargo' | 'fuel' | 'other'
     type: any
-    weight: number
+    weight: any
     thickness: number
 }

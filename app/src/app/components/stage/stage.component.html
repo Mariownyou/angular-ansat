@@ -1,0 +1,41 @@
+<div class="row">
+    <div class="col-4">
+        
+        <h2>Components</h2>
+
+        <div
+            cdkDropList
+            #todoList="cdkDropList"
+            [cdkDropListData]="components"
+            [cdkDropListConnectedTo]="[doneList]"
+            class="example-list py-2"
+            (cdkDropListDropped)="drop($event)">
+            <app-component-box *ngFor="let item of components" [component]='item' [dragable]='true'></app-component-box>
+        </div>
+
+        <button class="button-list" mat-stroked-button (click)='addComponent()'>Добавить Компонент</button>
+    </div>
+    <div class="col-8">
+        <div class="example-editor">
+
+            <h2>Editor</h2>
+
+            <div class="example-boundary">
+                <div
+                cdkDropList
+                #doneList="cdkDropList"
+                [cdkDropListData]="stageComponents"
+                [cdkDropListConnectedTo]="[todoList]"
+                class="example-list-editor"
+                (cdkDropListDropped)="drop($event)"
+                cdkDragBoundary=".example-boundary">
+                    <app-component-box *ngFor="let item of stageComponents" [component]='item' [dragable]='true'></app-component-box>
+                </div>
+                <h2>Weight: {{ stageWeight() }}</h2>
+            </div>
+        </div>
+    </div>
+</div>
+<pre>
+    {{ stage | json}}
+</pre> 

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="533" height="1012" viewBox="0 0 533 1012">
+  <g id="Roket-crossed" transform="translate(-1131 20)">
+    <g id="Roket" transform="translate(509 -9)">
+      <g id="Rectangle_14" data-name="Rectangle 14" transform="translate(781 167)" fill="#fff" stroke="#484747" stroke-width="3">
+        <rect width="214" height="729" stroke="none"/>
+        <rect x="1.5" y="1.5" width="211" height="726" fill="none"/>
+      </g>
+      <g id="Cargo" transform="translate(569 -524)">
+        <g id="Rectangle_12" data-name="Rectangle 12" transform="translate(233 886)" fill="#efb926" stroke="#000" stroke-width="2">
+          <rect width="173" height="168" stroke="none"/>
+          <rect x="1" y="1" width="171" height="166" fill="none"/>
+        </g>
+        <text id="Cargo-2" data-name="Cargo" transform="translate(279 982)" font-size="29" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Cargo</tspan></text>
+      </g>
+      <g id="Other" transform="translate(765 -514)">
+        <g id="Rectangle_10" data-name="Rectangle 10" transform="translate(37 698)" fill="#7750e4" stroke="#000" stroke-width="2">
+          <rect width="173" height="168" stroke="none"/>
+          <rect x="1" y="1" width="171" height="166" fill="none"/>
+        </g>
+        <text id="Other-2" data-name="Other" transform="translate(85 794)" font-size="29" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Other</tspan></text>
+      </g>
+      <g id="Engine" transform="translate(765 -168)">
+        <g id="Rectangle_13" data-name="Rectangle 13" transform="translate(37 886)" fill="#cbcbcb" stroke="#000" stroke-width="2">
+          <rect width="173" height="168" stroke="none"/>
+          <rect x="1" y="1" width="171" height="166" fill="none"/>
+        </g>
+        <text id="Engine-2" data-name="Engine" transform="translate(78 982)" font-size="29" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Engine</tspan></text>
+      </g>
+      <g id="Fuel" transform="translate(569 -158)">
+        <g id="Rectangle_11" data-name="Rectangle 11" transform="translate(233 698)" fill="#ef265d" stroke="#000" stroke-width="2">
+          <rect width="173" height="168" stroke="none"/>
+          <rect x="1" y="1" width="171" height="166" fill="none"/>
+        </g>
+        <text id="Fuel-2" data-name="Fuel" transform="translate(291 794)" font-size="29" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Fuel</tspan></text>
+      </g>
+      <path id="Path_8" data-name="Path 8" d="M2771,894.947l-139.526,82.105,66.6-113.654L2771,738.947Z" transform="translate(-1989 3)" fill="#db3636" stroke="#707070" stroke-width="1"/>
+      <path id="Path_9" data-name="Path 9" d="M2631.474,894.947,2771,977.053,2704.4,863.4l-72.927-124.452Z" transform="translate(-1636.974 3)" fill="#db3636" stroke="#707070" stroke-width="1"/>
+      <path id="Path_10" data-name="Path 10" d="M2771.87,896h212.656l-53.368,74.895H2824.426Z" transform="translate(-1990)" fill="#484747" stroke="#707070" stroke-width="1"/>
+      <path id="Polygon_5" data-name="Polygon 5" d="M107,0,214,158H0Z" transform="translate(781 9)" fill="#db3636"/>
+    </g>
+    <rect id="Rectangle_15" data-name="Rectangle 15" width="492" height="971" transform="translate(1151)" fill="#484747" opacity="0.68"/>
+    <circle id="Ellipse_11" data-name="Ellipse 11" cx="20.5" cy="20.5" r="20.5" transform="translate(1131 951)" fill="#db3636"/>
+    <circle id="Ellipse_12" data-name="Ellipse 12" cx="20.5" cy="20.5" r="20.5" transform="translate(1623 951)" fill="#db3636"/>
+    <circle id="Ellipse_13" data-name="Ellipse 13" cx="20.5" cy="20.5" r="20.5" transform="translate(1623 -20)" fill="#db3636"/>
+    <circle id="Ellipse_14" data-name="Ellipse 14" cx="20.5" cy="20.5" r="20.5" transform="translate(1131 -20)" fill="#db3636"/>
+  </g>
+</svg>

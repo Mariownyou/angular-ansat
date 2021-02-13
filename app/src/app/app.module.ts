@@ -17,6 +17,11 @@ import { ComponentComponent } from './components/component/component.component';
 import { CardComponent } from './components/card/card.component';
 import {MatSelectModule} from '@angular/material/select';
 import { FormsModule } from '@angular/forms';
+import { StageComponent } from './components/stage/stage.component';
+import { MatButtonModule } from '@angular/material/button'
+import { ComponentBoxComponent, Dialog } from './components/includes/component-box/component-box.component';
+import {MatDialogModule} from '@angular/material/dialog';
+import { FormComponent } from './components/includes/form/form.component'
 
 @NgModule({
   declarations: [
@@ -25,7 +30,11 @@ import { FormsModule } from '@angular/forms';
     HomeComponent,
     DetailComponent,
     ComponentComponent,
-    CardComponent
+    CardComponent,
+    StageComponent,
+    ComponentBoxComponent,
+    Dialog,
+    FormComponent
   ],
   imports: [
     BrowserModule,
@@ -38,7 +47,9 @@ import { FormsModule } from '@angular/forms';
     ReactiveFormsModule,
     MatInputModule,
     MatSelectModule,
-    FormsModule
+    FormsModule,
+    MatButtonModule,
+    MatDialogModule
   ],
   providers: [],
   bootstrap: [AppComponent]
