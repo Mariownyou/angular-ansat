@@ -1,0 +1,10 @@
+<mat-form-field>
+    <mat-label>Autosize textarea</mat-label>
+    <textarea matInput
+              cdkTextareaAutosize
+              #autosize="cdkTextareaAutosize"
+              cdkAutosizeMinRows="5"
+              cdkAutosizeMaxRows="50"
+              [(ngModel)]='stageJSON'></textarea>
+</mat-form-field>
+<button mat-button (click)='submit()'>Подтвердить</button>

@@ -21,7 +21,9 @@ import { StageComponent } from './components/stage/stage.component';
 import { MatButtonModule } from '@angular/material/button'
 import { ComponentBoxComponent, Dialog } from './components/includes/component-box/component-box.component';
 import {MatDialogModule} from '@angular/material/dialog';
-import { FormComponent } from './components/includes/form/form.component'
+import { FormComponent } from './components/includes/form/form.component';
+import { TextareaComponent } from './components/includes/textarea/textarea.component';
+import { NotFoundComponent } from './pages/not-found/not-found.component'
 
 @NgModule({
   declarations: [
@@ -34,7 +36,9 @@ import { FormComponent } from './components/includes/form/form.component'
     StageComponent,
     ComponentBoxComponent,
     Dialog,
-    FormComponent
+    FormComponent,
+    TextareaComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,

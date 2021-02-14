@@ -41,4 +41,8 @@ export class DetailService {
     return weight
   }
 
+  setCopmonents(components) {
+    this.stage.components = components
+  }
+
 }

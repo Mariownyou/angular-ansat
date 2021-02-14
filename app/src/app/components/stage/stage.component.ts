@@ -36,6 +36,7 @@ export class StageComponent implements OnInit {
                         event.previousIndex,
                         event.currentIndex);
     }
+    this.detailService.setCopmonents(this.stageComponents)
   }
 
   addComponent() {

@@ -1,5 +1,14 @@
 <div class="row">
-    <div class="col-4">
+    <div class="col-12 col-md-6 mb-5">
+        <h1>Ступень</h1>
+        <p class="body-text">
+            text
+        </p>
+    </div>
+    <div class="col-12 col-md-6 mb-5">
+        img
+    </div>
+    <div class="col-12 col-md-4">
         
         <h2>Components</h2>
 
@@ -15,10 +24,10 @@
 
         <button class="button-list" mat-stroked-button (click)='addComponent()'>Добавить Компонент</button>
     </div>
-    <div class="col-8">
+    <div class="col-12 col-md-8">
         <div class="example-editor">
 
-            <h2>Editor</h2>
+            <h2>Stage Editor</h2>
 
             <div class="example-boundary">
                 <div
@@ -35,7 +44,12 @@
             </div>
         </div>
     </div>
+    <div class="col-6 mt-5">
+        <pre>
+            {{ stage | json}}
+        </pre> 
+    </div>
+    <div class="col-6 mt-5">
+        <app-textarea></app-textarea>
+    </div>
 </div>
-<pre>
-    {{ stage | json}}
-</pre> 
