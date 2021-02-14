@@ -7,6 +7,7 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class FormComponent implements OnInit {
   @Input() component
+  @Input() isFull: boolean = false
   types: string[] = [
     'engine',
     'cargo',

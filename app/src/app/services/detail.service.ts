@@ -40,9 +40,24 @@ export class DetailService {
     this.stage.weight = weight
     return weight
   }
+  
+  getStageJson(): string {
+    return JSON.stringify(this.stage, null, "   ") 
+  }
+
+  getStage(): Stage {
+    return JSON.parse(this.getStageJson())
+  }
+
+  setStage(stage) {
+    console.log(this.stage)
+    this.stage = JSON.parse(stage)
+    console.log(this.stage)
+  }
 
   setCopmonents(components) {
     this.stage.components = components
+    this.getStageWeight()
   }
 
 }

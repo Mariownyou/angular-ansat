@@ -23,7 +23,9 @@ import { ComponentBoxComponent, Dialog } from './components/includes/component-b
 import {MatDialogModule} from '@angular/material/dialog';
 import { FormComponent } from './components/includes/form/form.component';
 import { TextareaComponent } from './components/includes/textarea/textarea.component';
-import { NotFoundComponent } from './pages/not-found/not-found.component'
+import { NotFoundComponent } from './pages/not-found/not-found.component';
+import { ArticleComponent } from './components/article/article.component';
+import { RoketComponent } from './components/roket/roket.component'
 
 @NgModule({
   declarations: [
@@ -38,7 +40,9 @@ import { NotFoundComponent } from './pages/not-found/not-found.component'
     Dialog,
     FormComponent,
     TextareaComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    ArticleComponent,
+    RoketComponent
   ],
   imports: [
     BrowserModule,

@@ -7,19 +7,21 @@ import { DetailService } from 'src/app/services/detail.service';
   styleUrls: ['./textarea.component.scss']
 })
 export class TextareaComponent implements OnInit {
-  stage = this.detailService.stage
-  stageJSON: string = JSON.stringify(this.stage, null, "   ")
+  stageJSON: string = this.detailService.getStageJson() 
+
+  getStage() {
+    this.stageJSON = this.detailService.getStageJson()
+  }
 
   constructor(private detailService: DetailService) { }
 
   ngOnInit(): void {
-    this.stageJSON = JSON.stringify(this.stage, null, "   ")
   }
 
   submit() {
-    console.log(this.detailService.stage, this.stageJSON)
-    this.detailService.stage = JSON.parse(this.stageJSON);
-    console.log(this.detailService.stage)
+    // console.log(this.detailService.stage, this.stageJSON)
+    this.detailService.setStage(this.stageJSON);
+    // console.log(this.detailService.stage)
   }
 
 }

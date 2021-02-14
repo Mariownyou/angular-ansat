@@ -2,11 +2,17 @@
     <div class="col-12 col-md-6 mb-5">
         <h1>Ступень</h1>
         <p class="body-text">
-            text
+            Это уже достаточно сложный компонент по функционалу, но простой по наполнению.
+            Чтобы создать ступень нам нужно передать в нее массив из компонентов, все остальные расчеты сделает класс сам;
+            рассчитает вес, высоту, ширину.
+            <br><br>
+            Здесь я не стал заморачиваться и реализовал только рассчет веса всей ступени.
         </p>
     </div>
     <div class="col-12 col-md-6 mb-5">
-        img
+        <div class="stage">
+            <img src="../../../assets/Stage.svg" alt="Stage" id='stage'>
+        </div>
     </div>
     <div class="col-12 col-md-4">
         
@@ -29,27 +35,25 @@
 
             <h2>Stage Editor</h2>
 
-            <div class="example-boundary">
-                <div
-                cdkDropList
-                #doneList="cdkDropList"
-                [cdkDropListData]="stageComponents"
-                [cdkDropListConnectedTo]="[todoList]"
-                class="example-list-editor"
-                (cdkDropListDropped)="drop($event)"
-                cdkDragBoundary=".example-boundary">
-                    <app-component-box *ngFor="let item of stageComponents" [component]='item' [dragable]='true'></app-component-box>
-                </div>
-                <h2>Weight: {{ stageWeight() }}</h2>
+            <div
+            cdkDropList
+            #doneList="cdkDropList"
+            [cdkDropListData]="stageComponents"
+            [cdkDropListConnectedTo]="[todoList]"
+            class="example-list-editor"
+            (cdkDropListDropped)="drop($event)"
+            cdkDragBoundary=".example-boundary">
+                <app-component-box *ngFor="let item of stageComponents" [component]='item' [dragable]='true'></app-component-box>
             </div>
+            <h2>Weight: {{ stageWeight() }}</h2>
+            <blockquote class="blockquote mt-5">
+                <p class="mb-0 text-muted">Если что, это все можно двигать мышкой.</p>
+            </blockquote>
         </div>
     </div>
     <div class="col-6 mt-5">
         <pre>
             {{ stage | json}}
         </pre> 
-    </div>
-    <div class="col-6 mt-5">
-        <app-textarea></app-textarea>
     </div>
 </div>

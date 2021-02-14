@@ -1,5 +1,10 @@
 <form class="form-container">
-
+     <mat-form-field *ngIf='isFull' class="form-field">
+        <input matInput type="number" placeholder="width" name="width" [(ngModel)]='component.detail.width'> 
+    </mat-form-field>
+    <mat-form-field *ngIf='isFull' class="form-field">
+        <input matInput type="number" placeholder="height" name="height" [(ngModel)]='component.detail.height'> 
+    </mat-form-field>
     <mat-form-field class="form-field">
         <input matInput placeholder="name" [(ngModel)]='component.name' name="name"> 
     </mat-form-field>

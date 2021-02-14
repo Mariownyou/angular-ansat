@@ -40,7 +40,13 @@ export class StageComponent implements OnInit {
   }
 
   addComponent() {
-    this.components.push(this.detailService.component)
+    let component: C = {
+      detail: {width: 50, height: 50},
+      weight: 0,
+      thickness: 1,
+      type: 'other'
+    } 
+    this.components.push(component)
   }
 
   constructor(private detailService: DetailService) { }
